@@ -1,4 +1,4 @@
-import { confetti } from '/assets/lib/dom-confetti.js';
+import { confetti } from '/twitch-overlay/assets/lib/dom-confetti.js';
 
 let Chat = {
     info: {
