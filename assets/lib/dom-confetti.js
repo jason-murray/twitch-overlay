@@ -106,14 +106,14 @@ const defaults = {
     angle: 90,
     spread: 2000,
     startVelocity: 0,
-    elementCount: 2,
+    elementCount: 3,
     width: "10px",
     height: "10px",
     perspective: "",
     colors: defaultColors,
     image: "",
     duration: 12000,
-    stagger: 700,
+    stagger: 1000,
     dragFriction: 0.1,
     random: Math.random
 };
