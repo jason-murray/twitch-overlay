@@ -1,4 +1,4 @@
-let theWheel = new Winwheel({
+window.theWheel = new Winwheel({
     'numSegments'   : 16,   // Specify number of segments.
     'outerRadius'   : 212,  // Set radius to so wheel fits the background.
     'innerRadius'   : 120,  // Set inner radius to make wheel hollow.
