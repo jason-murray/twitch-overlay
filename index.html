@@ -7,17 +7,22 @@
     <script src="/twitch-overlay/assets/lib/jquery-3.4.1.min.js"></script>
     <script src="/twitch-overlay/assets/lib/dom-confetti.js" type="module"></script>
     <script src="/twitch-overlay/assets/lib/tmi.min.js"></script>
+    <script src="/twitch-overlay/assets/lib/Winwheel.js"></script>
     <script src="/twitch-overlay/settings.js"></script>
     <script src="/twitch-overlay/src/emotewall.js" type="module"></script>
     <script src="/twitch-overlay/src/main.js"></script>
     <script src="/twitch-overlay/src/popup-helper.js"></script>
     <script src="/twitch-overlay/src/handlers.js"></script>
+    <script src="/twitch-overlay/src/wheel.js" type="module"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans Condensed:700">
     <link rel="stylesheet" type="text/css" href="assets/styles.css">
 </head>
 
 <body>
+    <canvas id='canvas' width='880' height='300'>
+        Canvas not supported, use another browser.
+    </canvas>
     <div id="container"></div>
     <div id="popupbox">
         <h1 id="popuptext"></h1>
