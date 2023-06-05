@@ -53,6 +53,9 @@ function onConnectedHandler(addr, port) {
 
 let socket = new WebSocket("wss://eventsub.wss.twitch.tv/ws");
 
+let session_id = '';
+let subscribed = false;
+
 socket.onmessage = function (event) {
     let msg = JSON.parse(event.data);
 
