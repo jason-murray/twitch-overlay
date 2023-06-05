@@ -51,7 +51,7 @@ function onConnectedHandler(addr, port) {
     console.log(`* Connected to ${addr}:${port}`);
 }
 
-let socket = new WebSocket("ws://eventsub-beta.wss.twitch.tv/ws");
+let socket = new WebSocket("wss://eventsub-beta.wss.twitch.tv/ws");
 
 socket.onmessage = function (event) {
     let msg = JSON.parse(event.data);
