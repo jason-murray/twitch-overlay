@@ -7,6 +7,10 @@ const twitchChannel = urlParams.get('channel');
 // Change Limmy to your Twitch channel
 const twitchChannelId = urlParams.get('cid');
 
+// Change Limmy to your Twitch channel
+const twitchClientId = urlParams.get('client');
+const bearerToken = urlParams.get('bearer');
+
 // Your alert background. Default is a vibrant green
 const alertBg = '#00AA00';
 
